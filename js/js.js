@@ -1,8 +1,4 @@
-// $(document).ready(function() {
-//     // 重新載入此頁面時，回到第一張圖，並將右方導覽列置中
-//     $('body, html').scrollTop(0);
-//     center();
-// })
+
 
 // 側邊欄按鈕跳轉畫面---------------------------------------------------
 $('.sideBtn1-click').click(function(){
@@ -22,15 +18,7 @@ $('.sideBtn4-click').click(function(){
 // 課程區滑動出現----------------------------------------
 $(window).scroll(function () {
     console.log('scrollTop:', $(window).scrollTop());
-    // console.log('body height:',$('body').height());
 
-    // const denominator = $('body').height() - $(window).height()
-
-    // // console.log('相除:', $(window).scrollTop() / denominator);
-
-    // const percentage = $(window).scrollTop() / denominator * 100;
-
-    // console.log('percentage:',percentage);
 
     if ($(window).scrollTop() >= 300) {
         $('.course-mainBox').css({
@@ -135,13 +123,6 @@ $(window).scroll(function () {
         $('.nav li:eq(3)').addClass('active');
     }
 })
-
-// 海龜視差滾動區---------------------------------------
-//     $(window).addEventListener('scroll', () => {
-//         const scrollPositionY = window.pageYOffset;
-//         const moon = document.querySelector('.moon');
-//         moon.style.transform = `translateY(${scrollPositionY}px)`;
-// });
 
 
 // bugerBtn---------------------------------
@@ -364,15 +345,9 @@ $('#levelBtnOne-m').click(function(){
         $('.level-One').addClass('levelBtnClick')
         $('.level-Two').removeClass('levelBtnClick')
         $('.level-Three').removeClass('levelBtnClick')
-        // $('.levelSection').removeClass('levelSectionAni')
-        // $('.levelSection').css('background-image', 'url(/images/bg-04.png,),url(/images/person-level-01.png)')
-        // $('.levelSection').removeClass('levelSectionAniTwo')
-        // $('.levelSection').removeClass('levelSectionAniThree')
         $('.courseTitle-m').text('Level 1｜20m')
         $('.courseTitleInfo-m').text('課程中將接觸到放鬆的腹式呼吸、更有效率的全呼吸、靜態閉氣、鴨式潛水和恆定配重著蛙鞋潛到至少十米。')
         $('.courseFeeInfo-m').html('<p>包含教學費用、SSI國際簽證和教材。<br>不含自由潛水裝備和食宿。​<br>租用自由潛水裝備，每天NT500。</p>')
-
-        // $('.levelSection').addClass('levelSectionAni')
 
     
 })
@@ -432,7 +407,6 @@ $(window).scroll(function () {
     const denominator = $('body').height() - $(window).scrollTop()
 
 
-    // console.log('相除:', $(window).scrollTop() / denominator);
 
     const percentage = $(window).scrollTop() / denominator * 100 - 50;
     const percentageTop = $(window).scrollTop() / denominator * 100 - 20;
@@ -450,13 +424,5 @@ $(window).scroll(function () {
 })
 
 
-
-
-
-
-
-
-
-console.log($('.turtleBox').offset().top)
 
 // 
