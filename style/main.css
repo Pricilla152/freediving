@@ -1215,9 +1215,11 @@ margin-bottom: 10px;
 @media (min-width:375px) {
     .levelSection-M{
         display: flex;
+        overflow: hidden;
     }
     .levelSection-W{
         display: none;
+        overflow: hidden;
     }
     .levelSectionBox-m{
         padding-top: 50px;
@@ -1288,9 +1290,11 @@ margin-bottom: 10px;
 @media (min-width:992px) {
     .levelSection-M{
         display: none;
+        overflow: hidden;
     }
     .levelSection-W{
         display: flex;
+        overflow: hidden;
     }
 }
 /* .CourseImg{
