@@ -30,7 +30,7 @@ h6{
     line-height: 20px;
 }
 body {
-    background-image: url(/images/bg-03.png);
+    background-image: url(../images/bg-03.png);
 }
 /* header---------------------------- */
 nav{
@@ -289,7 +289,7 @@ padding-bottom: 26px;
     width: 100%;
     height:100vh;
     overflow: hidden;
-    background-image:url(/images/wave-01.png), url(/images/wave-02-2.png), url(/images/girl.gif),url(/images/bg-01.png);
+    background-image:url(../images/wave-01.png), url(../images/wave-02-2.png), url(../images/girl.gif),url(../images/bg-01.png);
     background-size: cover,cover,45%,cover;
     background-repeat: no-repeat;
     animation-name:mainBg;
@@ -436,7 +436,7 @@ padding-bottom: 26px;
 .courseSection{
     width: 100%;
     height:100vh;
-    background-image:url(/images/bg-04.png);
+    background-image:url(../images/bg-04.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -597,7 +597,7 @@ padding-bottom: 26px;
 .placeSection{
     width: 100%;
     height:100vh;
-    background-image:url(/images/bg-03.png);
+    background-image:url(../images/bg-03.png);
     background-size: cover;
     background-repeat: no-repeat;
     transition: 1s;
@@ -814,7 +814,7 @@ padding-bottom: 26px;
 .coachSection{
     width: 100%;
     height:100vh;
-    background-image:url(/images/bg-02.png);
+    background-image:url(../images/bg-02.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -1032,7 +1032,7 @@ padding-bottom: 26px;
 .levelSection{
     width: 100%;
     height:100vh;
-    background-image:url(/images/bg-04.png,),url(/images/person-level-01.png);
+    background-image:url(../images/bg-04.png,),url(../images/person-level-01.png);
     background-size: cover,75%;
     background-repeat: no-repeat;
     /* background-position: -100% 30%; */
@@ -1040,7 +1040,7 @@ padding-bottom: 26px;
     overflow: hidden;
 }
 .levelArea{
-    background-image:url(/images/bg-04.png,)
+    background-image:url(../images/bg-04.png,)
 }
 .levelSectionAni{
     background-position: -100% 30%;
